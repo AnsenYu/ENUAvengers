@@ -1,6 +1,5 @@
 #!/bin/bash
-cd
-DATADIR=./enudatadir
+DATADIR=~/enudatadir
 
 if [ -f $DATADIR"/eosd.pid" ]; then
 pid=`cat $DATADIR"/eosd.pid"`
