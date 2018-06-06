@@ -14,6 +14,7 @@ IP=$2
 PUBKEY=`cat key.txt | grep Public | awk '{print $3}'`
 PRIKEY=`cat key.txt | grep Private | awk '{print $3}'`
 echo pubkey: $PUBKEY
+echo prikey: $PRIKEY
 
 DATADIR=~/enudatadir
 if [ ! -d $DATADIR ]; then
