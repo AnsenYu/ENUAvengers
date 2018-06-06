@@ -12,4 +12,4 @@ sh scripts/buildlts.sh
 sh scripts/openport.sh
 
 ## start enunode
-./start.sh <producer-name> <your-IP>
+./start.sh \<producer-name\> \<your-IP\>
