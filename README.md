@@ -2,7 +2,7 @@
 Enumivo Mainnet
 
 ## scripts to build and install enu v1.0.1 
-sh scripts/buildenu.sh
+sh scripts/enubuild.sh
 
 ## scripts to build lts for ubuntu 16.04
 sh scripts/buildlts.sh
