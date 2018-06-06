@@ -1,6 +1,8 @@
 #!/bin/bash
+cd
+mkdir enudatadir
 BINDIR=/usr/local/bin
-DATADIR=/root/mainnode
+DATADIR=./enudatadir
 
 if [ "$1" = "bootstrap" ]
 then
