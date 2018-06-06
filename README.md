@@ -1,5 +1,6 @@
 # ENUAvengers 
 Enumivo Mainnet
+please use `root` to run.
 
 ## scripts to build and install enu v1.0.1 
 sh scripts/enubuild.sh
