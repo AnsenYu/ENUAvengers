@@ -1,0 +1,1 @@
+10 * * * * root /path/to/claim.sh wallet_passwd producer
