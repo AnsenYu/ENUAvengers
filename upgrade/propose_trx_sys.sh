@@ -1,1 +1,2 @@
 enuclit multisig propose_trx deploysystem producer_permission.json deploy_system_contract_trx.json ansenironman
+enuclit multisig propose_trx deploytoken producer_permission.json deploy_token_contract_trx.json ansenironman
