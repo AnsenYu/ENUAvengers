@@ -1,7 +1,8 @@
 #!/bin/bash
+RPC="https://filter.qsx.io"
 
 # generate non-signed transaction of setting contract of enu.msig
-enucli set contract -s -j -d enu.msig ../build/enu.msig > upgrade_enumsig_contract_trx.json
+enucli -u $RPC set contract -s -j -d enu.msig ../build/enu.msig > upgrade_enumsig_contract_trx.json
 
 
 # leader modify the expiration of the upgrade_enumsig_contract_trx.json

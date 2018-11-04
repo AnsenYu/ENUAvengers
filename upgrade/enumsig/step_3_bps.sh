@@ -1,7 +1,8 @@
 #!/bin/bash
+RPC="https://filter.qsx.io"
 
 # sign transaction with your producer's active private key
-enucli sign --chain-id cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f upgrade_enumsig_contract_official_trx.json
+enucli -u $RPC sign --chain-id cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f upgrade_enumsig_contract_official_trx.json
 
 # after signing, get the signature of output and send to the leader
 
